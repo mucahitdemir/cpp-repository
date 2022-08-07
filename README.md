@@ -5,8 +5,8 @@ C++ is extremely fast and is a general-purpose programming language that support
 
 ##Getting started
 
-# Compiler Errors
+## Compiler Errors
 
-# Linker Errors
+## Linker Errors
 
-# Runtime and Logic Errors
+## Runtime and Logic Errors
