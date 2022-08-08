@@ -19,6 +19,8 @@ In C++, there are different types of variables (defined with different keywords)
 **string** - stores text, such as "Hello World". String values are surrounded by double quotes
 
 **bool** - stores values with two states: true or false
+**Constants**
+When you do not want others (or yourself) to override existing variable values, use the const keyword (this will declare the variable as "constant", which means unchangeable and read-only):
 
 ## Compiler Errors
 
