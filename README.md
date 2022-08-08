@@ -24,6 +24,9 @@ In C++, there are different types of variables (defined with different keywords)
 
 When you do not want others (or yourself) to override existing variable values, use the const keyword (this will declare the variable as "constant", which means unchangeable and read-only):
 
+
+**cin** is pronounced "see-in". Used for input, and uses the extraction operator (>>)
+
 ## Compiler Errors
 
 ## Linker Errors
