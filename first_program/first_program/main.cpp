@@ -66,5 +66,14 @@ int main()
     cout << "float: " << sizeof(float) << endl; // float: 4
     cout << "double: " << sizeof(double) << endl;// double: 8
 
+    int x, y;
+    int sum;
+    cout << "Type a number: ";
+    cin >> x;
+    cout << "Type another number: ";
+    cin >> y;
+    sum = x + y;
+    cout << "Sum is: " << sum;
+    
 	return 0;
 }
