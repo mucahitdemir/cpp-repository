@@ -63,17 +63,36 @@ int main()
 //    cout << "The integer is: " << num1 << endl;
 //    cout << "And the double is " << num3 << endl;
   
-    cout << "float: " << sizeof(float) << endl; // float: 4
-    cout << "double: " << sizeof(double) << endl;// double: 8
+//    cout << "float: " << sizeof(float) << endl; // float: 4
+//    cout << "double: " << sizeof(double) << endl;// double: 8
+//
+//    int x, y;
+//    int sum;
+//    cout << "Type a number: ";
+//    cin >> x;
+//    cout << "Type another number: ";
+//    cin >> y;
+//    sum = x + y;
+//    cout << "Sum is: " << sum;
 
-    int x, y;
-    int sum;
-    cout << "Type a number: ";
-    cin >> x;
-    cout << "Type another number: ";
-    cin >> y;
-    sum = x + y;
-    cout << "Sum is: " << sum;
+/**Character Type**/
+
+    char middle_initial{'A'};
+    cout << "My middle initial is "<< middle_initial << endl;
+    
+    
+    
+/* Integer Type*****/
+    unsigned short int my_exam_score{87};
+    cout << "My exam score is "<< my_exam_score << endl;
+    int country_number{65};
+    cout << "I know more than "<< country_number <<" country names"<< endl;
+    
+    long istanbul_population{20'000'000};
+    cout << "The population of Istanbul is around "<< istanbul_population << " millions" << endl;
+    
+    long long Alpha_centauri_distance{9'461'000'000'000};
+    cout << "The distance for the Alpha Centauri is " << Alpha_centauri_distance <<" km" << endl;
     
 	return 0;
 }
