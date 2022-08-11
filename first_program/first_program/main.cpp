@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 
 using namespace std;
 
@@ -80,8 +81,7 @@ int main()
     char middle_initial{'A'};
     cout << "My middle initial is "<< middle_initial << endl;
     
-    
-    
+
 /* Integer Type*****/
     unsigned short int my_exam_score{87};
     cout << "My exam score is "<< my_exam_score << endl;
@@ -94,5 +94,20 @@ int main()
     long long Alpha_centauri_distance{9'461'000'000'000};
     cout << "The distance for the Alpha Centauri is " << Alpha_centauri_distance <<" km" << endl;
     
+/****Floating Point Types****/
+    float discount{15.5};
+    cout <<"Discount is around "<< discount<< endl;
+
+/*Sizeof variable*/
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+    
+/*Minimum Values*/
+    
+    cout << "Minimum values: "<< endl;
+    cout << "char: "<< CHAR_MIN << endl;
+    cout << "int: "<< INT_MIN << endl;
 	return 0;
 }
