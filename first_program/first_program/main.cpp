@@ -101,6 +101,7 @@
     bool game_over{false};
     cout << "The value of the Game Over is "<< game_over <<endl;
 
+<<<<<<< HEAD
     /********************Overflow Example*******************/
     short value1{30000};
     short value2{1000};
@@ -109,3 +110,36 @@
     cout<<"The sum of "<< value1 << " and " << value2 << " is " << product << endl; 
     return 0;
     }
+=======
+
+
+//    cout << "Enter a double: ";
+//    cin >> num3;
+//    
+//    cout << "You entered : " << num3 << endl;
+
+   
+//    cout << "Enter an integer: ";
+//    cin >> num1;
+//    
+//    cout << "Enter a double: ";
+//    cin >> num3;
+//    
+//    cout << "The integer is: " << num1 << endl;
+//    cout << "And the double is " << num3 << endl;
+  
+    cout << "float: " << sizeof(float) << endl; // float: 4
+    cout << "double: " << sizeof(double) << endl;// double: 8
+
+    int x, y;
+    int sum;
+    cout << "Type a number: ";
+    cin >> x;
+    cout << "Type another number: ";
+    cin >> y;
+    sum = x + y;
+    cout << "Sum is: " << sum;
+    
+	return 0;
+}
+>>>>>>> 8b6fd844de15663da24a69f573a65ce5f2599f4a
