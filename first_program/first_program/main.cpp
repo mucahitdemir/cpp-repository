@@ -115,18 +115,18 @@ int main()
 /****************Section 8 Statements and Operators***************/
 //CHALLENGE 
 
-const int dollar_value{100};
-const int quarter_value{25};
-const int dime_value{10};
-const int nickel_value{5};
-
-int entered_amount{};
-
-cout << "Enter an amount int cents: ";
-
-cin >> entered_amount;
-
-int balance{}, dollars{}, quarters{}, dimes{}, nickels{}, pennies{};
+//const int dollar_value{100};
+//const int quarter_value{25};
+//const int dime_value{10};
+//const int nickel_value{5};
+//
+//int entered_amount{};
+//
+//cout << "Enter an amount int cents: ";
+//
+//cin >> entered_amount;
+//
+//int balance{}, dollars{}, quarters{}, dimes{}, nickels{}, pennies{};
 
 /*SOLUTION WITHOUT USING MODULO OPERATOR*/
 
@@ -146,25 +146,39 @@ int balance{}, dollars{}, quarters{}, dimes{}, nickels{}, pennies{};
 
 /*MODULO*/
 
-dollars = entered_amount / dollar_value;
-balance =  entered_amount % dollar_value;
+//dollars = entered_amount / dollar_value;
+//balance =  entered_amount % dollar_value;
+//
+//quarters = balance / quarter_value;
+//balance %= quarter_value;
+//
+//dimes = balance / dime_value;
+//balance %= dime_value;
+//
+//nickels = balance / nickel_value;
+//balance %= nickel_value;
+//
+//pennies = balance;
+//
+//cout << "Dollars: " << dollars << endl;
+//cout << "Quarters: " << quarters << endl;
+//cout << "Dimes: " << dimes << endl;
+//cout << "Nickels: "<< nickels << endl;
+//cout << "Pennies: "<< pennies << endl; 
 
-quarters = balance / quarter_value;
-balance %= quarter_value;
+/********************NESTED IF STATEMENTS**************/
+int score{};
 
-dimes = balance / dime_value;
-balance %= dime_value;
+cout << "Enter your score from 0-100: ";
+cin >> score;
+char letter_grade{};
 
-nickels = balance / nickel_value;
-balance %= nickel_value;
-
-pennies = balance;
-
-cout << "Dollars: " << dollars << endl;
-cout << "Quarters: " << quarters << endl;
-cout << "Dimes: " << dimes << endl;
-cout << "Nickels: "<< nickels << endl;
-cout << "Pennies: "<< pennies << endl; 
-
+if(score >= 0 && score <=100){
+    cout << "XXX" << endl;
+}else{
+    cout << "Sorry! "<< score << " is not in range of 0 to 100." << endl;
+    
+}
+cout << endl;
 	return 0;
 }
