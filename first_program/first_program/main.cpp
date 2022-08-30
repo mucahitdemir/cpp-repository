@@ -167,18 +167,18 @@ int main()
 //cout << "Pennies: "<< pennies << endl; 
 
 /********************NESTED IF STATEMENTS**************/
-int score{};
+//int score{};
 
-cout << "Enter your score from 0-100: ";
-cin >> score;
-char letter_grade{};
+//cout << "Enter your score from 0-100: ";
+//cin >> score;
+//char letter_grade{};
 
-if(score >= 0 && score <=100){
-    cout << "XXX" << endl;
-}else{
-    cout << "Sorry! "<< score << " is not in range of 0 to 100." << endl;
+//if(score >= 0 && score <=100){
+//    cout << "XXX" << endl;
+//}else{
+ //   cout << "Sorry! "<< score << " is not in range of 0 to 100." << endl;
     
-}
-cout << endl;
+//}
+//cout << endl;
 	return 0;
 }
