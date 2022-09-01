@@ -20,10 +20,13 @@ In C++, there are different types of variables (defined with different keywords)
 
 **bool** - stores values with two states: true or false
 
+<<<<<<< HEAD
 
 ## C++ Operators
 https://www.programiz.com/cpp-programming/operators
 
+=======
+>>>>>>> 97bd893e4196ea7c5bf352f2ad37c0a217602672
 **Constants**
 
 When you do not want others (or yourself) to override existing variable values, use the const keyword (this will declare the variable as "constant", which means unchangeable and read-only):

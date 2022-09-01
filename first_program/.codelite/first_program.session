@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="D:\mucahitcpp\first_program\first_program.workspace">
   <int Value="0" Name="m_selectedTab"/>
+<<<<<<< HEAD
   <wxString Value="D:\mucahitcpp\first_program\first_program.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="D:\mucahitcpp\first_program\first_program\main.cpp" Name="FileName"/>
       <int Value="157" Name="FirstVisibleLine"/>
       <int Value="173" Name="CurrentLine"/>
+=======
+  <wxString Value="C:\Users\mucah\Documents\cpp-repository\first_program\first_program.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\Users\mucah\Documents\cpp-repository\first_program\first_program\main.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="26" Name="CurrentLine"/>
+>>>>>>> 97bd893e4196ea7c5bf352f2ad37c0a217602672
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

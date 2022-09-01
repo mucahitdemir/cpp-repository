@@ -13,8 +13,13 @@ OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
+<<<<<<< HEAD
 User                   :=mucahit.demirci
 Date                   :=01/09/2022
+=======
+User                   :=mucah
+Date                   :=13/08/2022
+>>>>>>> 97bd893e4196ea7c5bf352f2ad37c0a217602672
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/MinGW/bin/g++.exe
 SharedObjectLinkerName :=C:/MinGW/bin/g++.exe -shared -fPIC
