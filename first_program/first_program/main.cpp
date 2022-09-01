@@ -1,5 +1,7 @@
 #include <iostream>
 #include <climits>
+#include <cstring>
+#include <cctype>
 
 using namespace std;
 
@@ -167,18 +169,64 @@ int main()
 //cout << "Pennies: "<< pennies << endl; 
 
 /********************NESTED IF STATEMENTS**************/
-int score{};
+//int score{};
+//
+//cout << "Enter your score from 0-100: ";
+//cin >> score;
+//char letter_grade{};
+//
+//if(score >= 0 && score <=100){
+//    cout << "XXX" << endl;
+//}else{
+//    cout << "Sorry! "<< score << " is not in range of 0 to 100." << endl;
+//    
+//}
+//cout << endl;
 
-cout << "Enter your score from 0-100: ";
-cin >> score;
-char letter_grade{};
+/****************CHARACTERS AND STRINGS****************/
+char first_name[20];
+char last_name[20];
+char full_name[20];
+char temp[50];
 
-if(score >= 0 && score <=100){
-    cout << "XXX" << endl;
-}else{
-    cout << "Sorry! "<< score << " is not in range of 0 to 100." << endl;
+cout << "Please enter your full name: ";
+//cin >> first_name;
+//cout << "Hello! " <<first_name<< " your first name contains " << strlen(first_name) << " characters"<< endl ;
+
+cin.getline(full_name,50); // to get full name with space between them
+
+/*      The strcmp function returns zero if the 2 strings are equal,
+        a negative value if the first string is less than the second, 
+  *     and a positive value if the left string is greater than the second.*/
+
+cout << "----------------------------------------------------------" << endl;
+
+strcpy(temp,full_name); // copying full_name to temp 
+
+cout << "Your full name is " << full_name << endl;
+
+if(strcmp(temp, full_name) == 0) //string compare function
+    cout << temp <<  " and " << full_name << " are the same" << endl;
+else
+    cout << temp <<  " and " << full_name << " are different" << endl;
+
+cout << "----------------------------------------------------------" << endl;
+
+for(size_t i{0}; i < strlen(full_name); ++i){
     
+    if(isalpha(full_name[i]))
+        full_name[i] = toupper(full_name[i]);
 }
-cout << endl;
+cout << "Your full name is " << full_name << endl;
+
+if(strcmp(temp, full_name) == 0) //string compare function
+    cout << temp <<  " and " << full_name << " are the same" << endl;
+else
+    cout << temp <<  " and " << full_name << " are different" << endl;
+
+strcat(full_name, " "); //concatenate full name and a space
+strcat(full_name,last_name);
 	return 0;
+    
+
 }
