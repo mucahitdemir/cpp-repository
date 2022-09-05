@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 #include <iostream>
 #include <climits>
 #include <cstring>
 #include <cctype>
-=======
     #include <iostream>
     #include <vector>
->>>>>>> 97bd893e4196ea7c5bf352f2ad37c0a217602672
 
     using namespace std;
 
@@ -210,11 +207,8 @@
 //    
 //    cout << "The integer is: " << num1 << endl;
 //    cout << "And the double is " << num3 << endl;
-<<<<<<< HEAD
-  
-=======
+
 //  
->>>>>>> 97bd893e4196ea7c5bf352f2ad37c0a217602672
 //    cout << "float: " << sizeof(float) << endl; // float: 4
 //    cout << "double: " << sizeof(double) << endl;// double: 8
 //
@@ -226,7 +220,6 @@
 //    cin >> y;
 //    sum = x + y;
 //    cout << "Sum is: " << sum;
-<<<<<<< HEAD
 //
 ///**Character Type**/
 //
@@ -380,8 +373,7 @@ strcat(full_name,last_name);
     
 
 }
-=======
+
     
 //	return 0;
 //}
->>>>>>> 97bd893e4196ea7c5bf352f2ad37c0a217602672
