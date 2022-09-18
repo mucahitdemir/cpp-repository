@@ -1,0 +1,4 @@
+-IC:\Users\mucah\Documents\cpp-repository\functions\Challenge
+-std=c++14
+-target
+

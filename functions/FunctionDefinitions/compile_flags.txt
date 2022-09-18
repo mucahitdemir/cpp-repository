@@ -1,0 +1,4 @@
+-IC:\Users\mucah\Documents\cpp-repository\functions\FunctionDefinitions
+-std=c++14
+-target
+
